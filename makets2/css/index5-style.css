@@ -1,0 +1,207 @@
+/**************************
+	START
+***************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+a {
+	color: #fff;
+}
+
+body {
+	background: url(../img/road.jpg) no-repeat bottom fixed;
+	background-size: cover;
+}
+
+/**************************
+	CLASSES
+***************************/
+
+.blue,
+.views-type:hover {
+	background: #2DBAF0;
+	transition: all .3s;
+}
+
+.yellow {
+	background: #EDDD89;
+	transition: all .3s;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 5px 2px 5px;
+}
+
+.left-side,
+.right-side {
+	background: rgba(52,49,70,.8);
+	height: 93%;
+	position: fixed;
+	top: 7%;
+}
+
+/**************************
+	HEADER
+***************************/
+
+.header {
+	height: 7%;
+	background: #393954;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+/*** LEFT SIDE of HEADER ***/
+
+.header .views-type {
+	float: left;
+	width: 6%;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "RobotoCondensedLight";
+	text-align: center;
+	color: #ccc;
+}
+
+.header .views-type:hover {
+	color: #fff;
+}
+
+/*** RIGHT SIDE of HEADER ***/
+
+.header .right-links {
+	float: right;
+	width: 70%;
+	text-align: center;
+}
+
+.header .right-links a {
+	float: right;
+	font-size: 20px;
+	padding: 1% 2%;
+	transition: all .3s;
+}
+
+.header .right-links a:hover {
+	opacity: .7;
+}
+
+/**************************
+	LEFT SIDE
+***************************/
+
+.left-side {
+	width: 30%;
+	color: #fff;
+	border-right: 1px solid #888;
+	font-family: "RobotoLight";
+}
+
+.tabs {
+	font: 20px "RobotoCondensedLight";
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #EDDD89;
+	transition: all .2s;
+}
+
+.tab2 {
+	border-bottom: 0;
+	background: transparent;
+	float: right;
+}
+
+.tabs:hover {
+	background: #393954;
+}
+
+.left-side .message {
+	border-bottom: 1px solid #888;
+	background: rgba(57,57,83,.3);
+	padding: 5px 0;
+	transition: all .3s;
+}
+
+.left-side p {
+	margin-left: 20px;
+}
+
+.left-side .first,
+.left-side .message:hover {
+	background: #393954;
+}
+
+.left-side .message .name-mes {
+	font-size: 20px;
+}
+
+.left-side .message .text-mes {
+	font-size: 15px;
+	color: #888;
+}
+
+.left-side .message .date-mes {
+	float: right;
+	font-size: 15px;
+	margin-right: 10px;
+	color: #ccc;
+}
+
+/**************************
+	RIGHT SIDE
+***************************/
+
+.right-side {
+	left: 30%;
+	width: 70%;
+}
+
+.right-side .view-mes .icon {
+	background: url(../img/logo.jpg) no-repeat center;
+	width: 75px;
+	height: 75px;
+	margin-left: 10%;
+	top: 30px;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.right-side .view-mes {
+	width: 90%;
+	margin: 60px auto;
+	background: #FDFDFD;
+	padding: 50px 20px;
+	font-family: "RobotoLight";
+	border-radius: 5px;
+}
+
+.right-side .view-mes p {
+	margin: 20px 0;
+	font-size: 17px;
+}
+
+.right-side .view-mes img {
+	width: 100%;
+}
+
+.right-side .view-mes h1 {
+	text-align: center;
+	font: 30px "RobotoLight";
+	font-style: italic;
+	margin: 10px 0;
+}

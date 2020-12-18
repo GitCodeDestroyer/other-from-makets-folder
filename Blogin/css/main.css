@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	-webkit-font-smoothing: antialised;
+	font-family: "RobotoRegular";
+	overflow-x: hidden;
+}
+
+/*** HEADER ***/
+
+.header-top {
+	padding: 0 3%;
+	height: 75px;
+	line-height: 75px;
+}
+
+.header-top .logo {
+	float: left;
+}
+
+.header-top .logo a {
+	font-family: "RobotoRegular";
+	color: #333;
+}
+
+.header-top .logo span {
+	font-size: 20px;
+	color: #9ee232;
+}
+
+.header-top .menu {
+	float: right;
+}
+
+.header-top .menu a {
+	text-transform: uppercase;
+	color: #333;
+	margin: 0 10px;
+	transition: all .3s;
+}
+
+.header-top .menu a:hover {
+	color: #888;
+}
+
+/*** IMAGE ***/
+
+.img {
+	width: 100%;
+	background: url(../img/interstellar-interstellar.jpg) no-repeat bottom;
+	background-size: cover;
+	padding: 80px 3%;
+}
+
+.img h1 {
+	font: 70px "NautilusPompiliusRegular";
+	color: #fff;
+}
+
+.img span {
+	font: 35px "NautilusPompiliusRegular";
+	color: #9ee232;
+}
+
+.img p {
+	width: 50%;
+	color: #fff;
+}
+
+.img a {
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 100px;
+	margin: 0 10px;
+	transition: all .3s;
+}
+
+.img .title {
+	margin-top: 10px;
+}
+
+.img input {
+	display: block;
+	width: 35%;
+	margin: 10px 0;
+	border: none;
+	color: #fff;
+	line-height: 35px;
+	height: 35px;
+	font-size: 20px;
+	border-top: 2px solid #fff;
+	padding: 5px;
+	background: rgba(0,0,0,.2);
+}
+
+.img a.blog-in {
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.img a.blog-in:hover {
+	background: rgba(255, 255, 255, 0.97);
+	color: #000;
+}
+
+/*** CONTACT ***/
+
+.contact {
+	text-align: center;
+	font-size: 25px;
+	padding: 2% 0;
+}
+
+.contact a {
+	color: #333;
+	transition: all .3s;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 41px;
+}
+
+.contact a:hover {
+	background: #333;
+	color: #fff;
+}
+
+@media (max-width: 700px) {
+	.img input,
+	.img p {
+		width: 100%;
+	}
+	.img {
+		text-align: center;
+	}
+	.img a.blog-in {
+		border: 2px solid #9ee232;
+		color: #9ee232;
+	}
+	.img a.blog-in:hover {
+		background: #9ee232;
+		color: #fff;
+	}
+}

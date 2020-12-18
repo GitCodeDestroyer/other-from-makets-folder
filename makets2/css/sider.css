@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+	font-family: "RobotoLight";
+    background: #fafafa;
+}
+
+a,
+input {
+    transition: all .3s;
+}
+
+p span {
+    font-family: "RobotoMedium";
+}
+
+p .red {
+    color: #c14461;
+}
+
+.circle {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    float: right;
+}
+
+.line {
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background: #aaa;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background: #cbcbcb;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #c14461;
+}
+
+/*** HEADER ***/
+
+header {
+    background: #3b3c48;
+    height: 100%;
+    width: 23%;
+    position: fixed;
+    color: #fff;
+    margin-left: 0;
+}
+
+header a {
+    color: #ddd;
+    font-family: "RobotoLight";
+}
+
+header a:hover {
+    color: #fff;
+}
+
+.logo {
+    text-align: center;
+    background: #c14461;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+    font: 30px "RobotoCondensedRegular";
+}
+
+header h3 {
+    font: 20px "RobotoCondensedLight";
+    margin: 10px 20px 0 20px;
+    text-transform: uppercase;
+}
+
+header li {
+    line-height: 30px;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+.place {
+    background: #303038;
+    margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header input {
+    margin: 10px 20px;
+    width: 80%;
+    padding: 0 5px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font: 20px "RobotoLight";
+    background: #222;
+    color: #fff;
+}
+
+header input:focus {
+    background: #aaa;
+    box-shadow: 0 2px 1px rgba(0,0,0,.5);
+}
+
+.right-display {
+    background: #ddd;
+    position: fixed;
+    width: 7%;
+    left: 23%;
+    height: 100%;
+    border-right: 2px solid #aaa;
+    display: block;
+}
+
+.calendar {
+    background: #fafafa;
+    border-radius: 5px 2px 2px 5px;
+    float: right;
+    width: 80%;
+    height: 300px;
+    margin: 50px -2px 0 0;
+    border-bottom: 2px solid #aaa;
+    border-top: 2px solid #aaa;
+    border-left: 2px solid #aaa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.moon {
+    color: #ccc;
+    font-size: 20px;
+}
+
+.date {
+    color: #222;
+    font-size: 40px;
+    border-bottom: 1px solid #aaa;
+    margin: 0 17px;
+}
+
+.right-display ul {
+    margin-top: 10px;
+}
+
+.right-display li {
+    margin-top: 3px;
+    color: #444;
+}
+
+.right-display li .fa {
+    color: #c14461;
+}
+
+/*** small header ***/
+
+.header {
+    margin-top: -50px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    background: #c14461;
+    color: #fff;
+    z-index: 10000;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header button {
+    display: none;
+    color: #fff;
+    float: left;
+    line-height: 50px;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+/*** MAIN ***/
+
+.main {
+    margin-left: 30%;
+    padding: 20px;
+}
+
+.main h1 {
+    font: 25px "RobotoRegular";
+    color: #000;
+}
+
+.main h2 {
+    font: 22px "RobotoLight";
+    color: #333;
+}
+
+.main p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.images {
+    margin-top: 15px;
+}
+
+.images img {
+    z-index: 0;
+    width: 49%;
+    border-radius: 2px 2px 0 0;
+    border: 2px solid #999;
+    border-bottom: 2px solid skyblue;
+}
+
+.images img:hover {
+    opacity: 1;
+} 
+
+.main-header span {
+    font: 18px "RobotoCondensedLight";
+    color: #aaa;
+}
+
+.contact {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact li {
+    display: inline-block;
+}
+
+.contact a {
+    color: #333;
+}
+
+.contact a:hover {
+    color: skyblue
+}
+
+/**** RESPONSIVE ****/
+
+@media (max-width: 1000px) {
+    .header button {
+        display: inline-block;
+        float: left;
+    }
+    .header h1 {
+        float: right;
+        text-align: right;
+    }
+    .right-display {
+        display: none;
+    }
+    .header {
+        z-index: 10000;
+        text-align: center;
+        display: block;
+        margin-top: -50px;
+    }
+    .main {
+        margin-top: 50px;
+        margin-left: 31.5px;
+        font-size: 90%;
+    }
+    header {
+        width: 80%;
+        margin-left: -100%;
+        text-align: center;
+        margin-top: -50px;
+    }
+}
+
+@media (max-height:620px) {
+    header {
+        overflow-y: scroll;
+    }
+}

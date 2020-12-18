@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- ✗ -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Codium - Интерактивное обучение веб программированию">
+	<meta name="keywords" content="программирование, code, codium, обучение, веб, разработка">
+	<meta name="author" content="Codium Developers">
+
+	<title>Codium - Интерактивное обучение веб программированию</title>
+
+	<link rel="stylesheet" href="codium_files/fonts/fonts.css">
+	<link rel="stylesheet" href="codium_files/css/main.css">
+	<link rel="stylesheet" href="codium_files/css/animate.css">
+	<link rel="stylesheet" href="codium_files/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<nav class="transition navbar navbar-transparent" color-on-scroll="250">
+		<div class="logo">
+			<a href="#hero">
+				<img src="codium_files/img/logo.png" alt="codium logo">
+			</a>
+			<a href="#hero" class="response">
+				<img src="codium_files/img/icon-big.png" alt="codium logo">
+			</a>
+		</div>
+		<div class="menu">
+			<a class="account login" href="#account">Вход</a>
+			<a class="account register active" href="#account">Регистрация</a>
+			<a href="#account" class="user response">
+				<span class="pe-7s-user"></span>
+			</a>
+			<a href="../uz/index.php" class="lang">
+				<img src="codium_files/img/uz.png" alt="uzbek">
+			</a>
+		</div>
+	</nav>
+
+	<div id="hero" class="section section-header">
+		<div class="parallax filter filter-color-black">
+			<div class="image"></div>
+			<div class="container hero" style="padding-top: 80px;">
+				<img src="codium_files/img/png/Angular.png" data-wow-delay="2.5s" data-wow-duration="4.5s" class="wow fadeOutRightBig infinite img-1" alt="Angular">
+				<img src="codium_files/img/png/Bootstrap.png" data-wow-delay="4s" data-wow-duration="6s" class="wow fadeOutRightBig infinite img-2" alt="Bootstrap">
+				<img src="codium_files/img/png/CSS3.png" data-wow-delay="2s" data-wow-duration="5s" class="wow fadeOutRightBig infinite img-3" alt="CSS3">
+				<img src="codium_files/img/png/magento.png" data-wow-delay="3.5s" data-wow-duration="5.5s" class="wow fadeOutRightBig infinite img-4" alt="Magento">
+				<img src="codium_files/img/png/HTML5.png" data-wow-delay="2.6s" data-wow-duration="5s" class="wow fadeOutRightBig infinite img-5" alt="HTML5">
+				<img src="codium_files/img/png/JavaScript.png" data-wow-delay="2s" data-wow-duration="4s" class="wow fadeOutRightBig infinite img-6" alt="JavaScript">
+				<img src="codium_files/img/png/less-logo-large.png" data-wow-delay="3.5s" data-wow-duration="5.5s" class="wow fadeOutRightBig infinite img-7" alt="less">
+				<img src="codium_files/img/png/SASS.png" data-wow-delay="3s" data-wow-duration="5s" class="wow fadeOutRightBig infinite img-8" alt="SASS">
+				<img src="codium_files/img/png/vue-logo.png" data-wow-delay="3.4s" data-wow-duration="5s" class="wow fadeOutRightBig infinite img-9" alt="vue">
+				<img src="codium_files/img/png/w-logo-blue.png" data-wow-delay="2.7s" data-wow-duration="4.7s" class="wow fadeOutRightBig infinite img-10" alt="WordPress">
+				<h1>Интерактивное обучение веб разработке</h1>
+				<p id="account">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus vel aspernatur dolorum expedita reprehenderit ducimus voluptas, error a rem suscipit.
+				</p>
+				<!-- <div class="hero-gradient-1">
+					<a href="#content" class="fa fa-angle-down"></a>
+				</div> -->
+				<div class="hero-gradient-2"></div>
+				<form class="form-inline register" action="backend/account/registration-handling.php" method="post">
+					<input type="text" class="transition" id="username" name="username" placeholder="Имя пользователя.." pattern="\S.{2,15}?\S" required>
+					<input type="email" class="transition" id="email" name="email" placeholder="E-mail.." pattern="\S.{2,15}?\S" required>
+					<input type="password" class="transition" id="password" name="password" placeholder="Пароль.." pattern="\S.{3,}?\S" required>
+					<button class="btn" type="submit" id="submit">Регистрация</button>
+					<span>Есть аккаунт? <a>Вход</a></span>
+				</form>
+				<form class="form-inline login" action="backend/account/login-handling.php" method="post">
+					<input type="text" class="transition" id="username" name="username" placeholder="Имя пользователя.." pattern="\S.{2,15}?\S" required>
+					<input type="password" class="transition" id="password" name="password" placeholder="Пароль.." pattern="\S.{3,}?\S" required>
+					<button class="btn" type="submit" id="submit">Войти</button>
+					<span>Нет аккаунта? <a>Регистрация</a></span>
+				</form>
+			</div>
+		</div>
+		<div class="hero-gradient-3"></div>
+		<div class="hero-gradient-4" id="content"></div>
+	</div>
+
+	<div class="content">
+		<div class="start">
+			<div class="start-gradient-1"></div>
+			<img src="codium_files/img/png/html5.png" data-wow-delay="" data-wow-duration="2s" class="wow bounceInUp start-image-1" id="html5" alt="">
+			<img src="codium_files/img/png/sass.png" data-wow-delay="" data-wow-duration="3s" class="wow bounceInUp start-image-2" id="sass" alt="">
+			<img src="codium_files/img/png/bootstrap.png" data-wow-delay="" data-wow-duration="2.2s" class="wow fadeInUp start-image-3" id="bootstrap" alt="">
+			<img src="codium_files/img/png/css3.png" data-wow-delay="" data-wow-duration="1.5s" class="wow fadeInUp start-image-4" id="css3" alt="">
+			<img src="codium_files/img/png/javascript.png" data-wow-delay="" data-wow-duration="3.5s" class="wow bounceInUp start-image-5" id="javascript" alt="">
+			<div class="card wow fadeInUp">
+				<h1>О Codium</h1>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quisquam neque atque facere soluta saepe cum et eos esse vel.</p>
+				<a href="#account" class="btn">Начать</a>
+			</div>
+		</div>
+		<div class="preferences">
+			<div class="dark">
+				<div class="thumb">
+					<i class="pe-7s-graph1"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolore.</p>
+				</div>
+				<div class="thumb">
+					<i class="pe-7s-study"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, temporibus.</p>
+				</div>
+				<div class="thumb">
+					<i class="pe-7s-date"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, pariatur!</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="projects">
+			<div class="card wow fadeInUp">
+				<h1>Проекты</h1>
+				<h2>Вы сделаете несколько проектов в вашем обучении. <br> Практика лучше теории.</h2>
+			</div>
+			<img src="codium_files/img/demo (1).png" class="wow bounceInRight" alt="">
+			<img src="codium_files/img/demo (2).png" class="wow bounceInLeft" alt="">
+			<img src="codium_files/img/demo (3).png" class="wow bounceInRight" alt="">
+			<div class="clearfix"></div>
+		</div>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+		<h1>ndfjahsfbhsab</h1>
+	</div>
+
+	<script src="codium_files/js/jquery.min.js"></script>
+	<!-- a<script src="codium_files/js/bootstrap.js"></script> -->
+	<script src="codium_files/js/modernizr.js"></script>
+	<script src="codium_files/js/jquery.nicescroll.min.js"></script>
+	<script src="codium_files/js/wow.min.js"></script>
+	<script src="codium_files/js/main.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+
+</html>

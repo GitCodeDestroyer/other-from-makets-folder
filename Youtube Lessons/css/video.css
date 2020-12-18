@@ -1,0 +1,90 @@
+.editor-view {
+	width: 20%;
+	height: calc(100% - 60px);
+	position: fixed;
+	left: 0;
+	top: 60px;
+	line-height: calc(100vh - 130px);
+	text-align: center;
+	font-size: 70px;
+}
+
+.video {
+	width: 80%;
+	height: calc(100% - 60px);
+	position: fixed;
+	left: 20%;
+	top: 60px;
+	overflow: auto;
+	overflow-x: hidden;
+	padding: 50px 5%;
+}
+
+.video .player {
+	width: 100%;
+	display: block;
+}
+
+.video h2 {
+	margin: 20px 0;
+}
+
+.video .status {
+	font-size: 35px;
+	text-align: right;
+	line-height: 70px;
+	/*margin: 35px 0;*/
+	background-color: #eee;
+}
+
+.video .status span {
+	margin: 0 5px;
+}
+
+.video .status .views {
+	float: left;
+	font-size: 25px;
+}
+
+.video .status .red-color {
+	color: #E9908A;
+}
+
+.video .status .black-color {
+	color: #333;
+}
+
+.comments .comment {
+	padding: 15px;
+	margin: 35px 0;
+	border-left: 15px solid rgba(234, 234, 234, 0.5);
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+	background: #EEEEEE;
+}
+
+/*.comments .comment.red {background-color: rgba(233, 144, 138, 0.5)}
+.comments .comment.green {background-color: rgba(137, 248, 17, 0.5)}
+.comments .comment.blue {background-color: rgba(27, 208, 253, 0.5)}
+.comments .comment.yellow {background-color: rgba(255, 230, 15, 0.5)}
+.comments .comment.dark {background-color: rgba(60, 63, 80, 1);color: #FFF;}
+.comments .comment.orange {background-color: rgba(255, 127, 80, 0.7)}
+.comments .comment.neon {background-color: rgba(58, 240, 169, 0.5)}*/
+
+.comments .info img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.comments .info .name {
+	position: absolute;
+	line-height: 50px;
+}
+
+.comments .comment p {
+	margin-top: 15px;
+	text-align: right;
+	font-size: 20px;
+	text-transform: uppercase;
+}

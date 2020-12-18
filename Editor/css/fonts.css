@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "CorbelRegular";
+	src: url("../fonts/corbel.ttf");
+	src: url("../fonts/corbel.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CorbelBold";
+	src: url("../fonts/corbelb.ttf");
+	src: url("../fonts/corbelb.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CorbelItalic";
+	src: url("../fonts/corbeli.ttf");
+	src: url("../fonts/corbeli.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CorbelBoldItalic";
+	src: url("../fonts/corbelz.ttf");
+	src: url("../fonts/corbelz.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CorbelBoldItalic";
+	src: url("../fonts/corbelz.ttf");
+	src: url("../fonts/corbelz.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EbrimaRegular";
+	src: url("../fonts/ebrima.ttf");
+	src: url("../fonts/ebrima.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EbrimaBold";
+	src: url("../fonts/ebrimabd.ttf");
+	src: url("../fonts/ebrimabd.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

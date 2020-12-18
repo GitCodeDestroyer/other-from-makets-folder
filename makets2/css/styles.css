@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin-bottom: 100px;
+    background: #dbe1f2;
+}
+
+a,
+button,
+.animate {
+    transition: all .3s;
+}
+
+.line {
+    width: ;
+    height: 1px;
+    margin: 2% 5%;
+    background: #aaa;
+}
+
+/*** HEADER ***/
+
+header {
+    width: 100%;
+    background: #2db8e2;
+    box-shadow: 0 5px 15px rgba(87, 159, 180, .5);
+    line-height: 50px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+header h1 {
+    color: #fff;
+    float: left;
+    font-family: "RobotoLight";
+}
+
+header li {
+    float: right;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header li a {
+    color: #ddd;
+    font-family: fantasy;
+}
+
+header li a:hover {
+    color: #fff;
+}
+
+/*** MAIN ***/
+
+.main {
+    border-radius: 10px 10px 0 0;
+    margin: 1% 5% 0 5%;
+    padding: 20px 30px;
+    width: 90%;
+    background: #eee;
+}
+
+.anim {
+    margin: 0 5%;
+    width: 90%;
+    background: #eee;
+    border-radius: 0 0 10px 10px;
+}
+
+.anim_Wrapper {
+    opacity: 0;
+    background: #eee;
+    margin: 0 auto;
+    width: 700px;
+}
+
+svg {
+    padding: 20px;
+}
+
+svg text {
+    stroke: none;
+    fill: #222;
+    font-family: "RobotoLight";
+}
+
+input {
+    display: none;
+}
+
+.animate {
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    font: 50px "RobotoLight";
+    cursor: pointer;
+}   
+
+.animate:hover {
+    background: #2db8e2;
+}
+
+.main * {
+    font-family: "RobotoLight";
+}
+
+.main p,
+.main h2 {
+    margin: 10px 0;
+}
+
+.main img {
+    width: 45%;
+    margin-left: 3%;
+}

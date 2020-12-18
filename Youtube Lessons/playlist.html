@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>HTML</title>
+    <link type="text/css" rel="stylesheet" href="css/playlist.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo animated fadeInLeft">
+            <a href="index.html"><img src="img/Desktop.png" alt=""> SUPTECH</a>
+        </div>
+        <div class="menu animated fadeInRight">
+            <a href="">Видео-курсы</a>
+            <a href="">Обзоры</a>
+            <a href="">Подкасты</a>
+            <a href="">Форум</a>
+        </div>
+    </nav>
+    <div class="menu-button"><span class="pe-7s-menu"></span></div>
+    <div class="simple-playlist">
+        <div class="close"><span class="pe-7s-close"></span></div>
+        <ul>
+            <a href="video.html">
+                <li><span>1.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>2.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>3.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>4.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>5.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>6.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>7.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>8.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>9.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>10.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>11.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>12.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>13.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>14.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+            <a href="video.html">
+                <li><span>15.</span> Lorem ipsum dolor sit amet.</li>
+            </a>
+        </ul>
+    </div>
+    <div class="playlist" data-video="15">
+        <a href="video.html">
+            <div class="video video-5 wow slideInLeft" data-wow-duration="1s"></div>
+        </a>
+        <a href="video.html">
+            <div class="video video-4 wow slideInLeft" data-wow-duration="1.4s"></div>
+        </a>
+        <a href="video.html">
+            <div class="video video-3 wow slideInLeft" data-wow-duration="1.8s"></div>
+        </a>
+        <a href="video.html">
+            <div class="video video-2 wow slideInLeft" data-wow-duration="2.2s">
+                <span class="pe-7s-play"></span>
+            </div>
+        </a>
+        <a href="video.html">
+            <div class="video video-1 wow slideInLeft" data-wow-duration="2.6s">
+                <span class="pe-7s-play"></span>
+            </div>
+        </a>
+    </div>
+    <div class="controls animated fadeInUp">
+        <div class="prev"><span class="pe-7s-angle-left"></span></div>
+        <span class="count">15</span>
+        <div class="next active"><span class="pe-7s-angle-right"></span></div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/playlist.js"></script>
+    <script>
+    $(".simple-playlist").niceScroll({
+        mousescrollstep: 15,
+        cursorcolor: "#161A26",
+        cursorwidth: "17px",
+        cursorborderradius: "50px",
+        cursorborder: "none",
+        zindex: 10000,
+        cursoropacitymin: 1,
+        horizrailenabled: false
+    });
+    new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+* {
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background: url(../img/img12.jpg) fixed no-repeat;
+    background-size: cover;
+    font-family: "RobotoLight";
+}
+
+a {
+	font-family: "RobotoLight";
+    color: #fff;
+    transition: all .3s;
+}
+
+.container {
+	width: 90%;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+
+/*** HEADER ***/
+
+header {
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+}
+
+header .logo {
+	width: 19%;
+	height: 100px;
+	border-radius: 10px 0 0 0;
+	padding-left: 1%;
+	float: left;
+	background: #519f86 url(../img/logo1.png) no-repeat center;
+	background-size: contain;
+}
+
+header .header-menu {
+	border-radius: 0 10px 0 0;
+    background: #111618;
+	line-height: 100px;
+	width: 80%;
+	float: right;
+}
+
+header .header-menu h1 {
+	margin-left: 10%;
+	float: left;
+	text-transform: uppercase;
+}
+
+header .header-menu a {
+	float: right;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 40px;
+}
+
+header .header-menu a:hover {
+	background: #ed503e;
+}
+
+/*** MAIN ***/
+
+.main {
+	width: 100%;
+	height: 1000px;
+}
+
+.menu {
+	border-radius: 0 0 0 10px;
+	width: 20%;
+	background: #111618;
+	height: 100%;
+	float: left;
+	color: #fff;
+}
+
+.menu .head-list {
+	font: 25px "RobotoCondensedLight";
+	text-transform: uppercase;
+	color: #555;
+	padding: 0 10px;
+}
+
+.menu a {
+	display: list-item;
+	line-height: 40px;
+	font-size: 20px;
+	margin: 5px 0;
+	padding: 0 10px;
+}
+
+.menu a:hover {
+	background: #519f86;
+}
+
+.menu span {
+	margin-right: 10px;
+}
+
+.menu .event-num {
+	border-radius: 50%;
+	background: coral;
+	float: right;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.blogs {
+	background: #eee;
+	width: 78%;
+	float: right;
+	border-radius: 0 0 10px 0;
+	padding: 0 1%;
+}
+
+.blogs .blog-edit {
+	float: left;
+	width: 45%;
+	margin: 20px .5%;
+	height: 100%;
+	border: 3px solid #e1e5eb;
+	border-radius: 2px;
+}
+
+.blogs .blog-edit textarea {
+	height: 150px;
+	width: 97.8%;
+	font: 20px "RobotoLight";
+	padding: 0 5px;
+}
+
+.blogs .type {
+	height: 150px;
+	background: #e1e5eb;
+}
+
+.blog-edit .type a {
+	color: #555;
+	float: left;
+	font-size: 20px;
+	margin: 65px 5px;
+}
+
+.blog-edit .type .button-post {
+	float: right;
+	padding: 5px 15px;
+	margin: 55px 3px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	border: 1px solid #519f86;
+	color: #519f86;
+	background: transparent;
+}
+
+.blog-edit .type .button-post:hover {
+	border: 1px solid transparent;
+	background: #519f86;
+	color: #fff;
+}
+
+.header-menu .res-b {
+	display: none;
+}
+
+.blogs .blog-post {
+	margin: 0.5%;
+	margin-top: 20px;
+	float: left;
+	width: 45%;
+	border: 3px solid #e1e5eb;
+	border-radius: 2px;
+	color: #555;
+}
+
+.blogs .blog-post img {
+	display: block;
+	width: 100%;
+}
+
+.blogs .blog-post .type {
+	height: 70px;
+	line-height: 70px;
+}
+
+.blogs .blog-post .type a {
+	color: #555;
+}
+
+.blogs .type a:hover {
+	color: coral;
+}
+
+@media only screen and (max-width: 890px) {
+	header h1,
+	header strong,
+	.menu {
+		display: none;
+	}
+
+	.header-menu .res-b {
+		display: block;
+	}
+
+	header .header-menu a {
+		width: 40px;
+		height: 50px;
+		font-size: 20px;
+		line-height: 50px;
+	}
+
+	header .logo {
+		height: 50px;
+	}
+
+	header .logo img {
+		margin-top: 6px;
+	}
+	
+	.blogs {
+		float: left;
+		width: 98%;
+	}
+	.blogs .blog-post,
+	.blogs .blog-edit {
+		width: 95%;
+		margin: 20px 2%;
+	}
+}

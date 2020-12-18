@@ -1,0 +1,139 @@
+.playlist .video {
+    text-align: center;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .1);
+    color: #3C3F50 !important;
+    transition: box-shadow .3s;
+}
+
+.playlist .video:hover {
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .2);
+}
+
+.playlist .video-1 {
+    height: 70%;
+    width: 70%;
+    top: 15%;
+    left: 15%;
+    line-height: 70vh;
+    font-size: 70px;
+}
+.playlist .video-2 {
+    height: 60%;
+    width: 70%;
+    top: 20%;
+    left: 20%;
+    line-height: 70vh;
+    font-size: 70px;
+}
+
+.playlist .video-3 {
+    height: 50%;
+    width: 70%;
+    top: 25%;
+    left: 24%;
+}
+
+.playlist .video-4 {
+    height: 40%;
+    width: 70%;
+    top: 30%;
+    left: 27%;
+}
+
+.playlist .video-5 {
+    height: 40%;
+    width: 70%;
+    top: 30%;
+    left: -70%;
+}
+
+.menu-button {
+    position: fixed;
+    top: calc((100% - 70px) / 2);
+    left: calc((15% - 50px) / 2);
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.simple-playlist {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(255, 255,255, .9);
+    z-index: 3;
+    text-align: center;
+    padding-top: 50px;
+    overflow: auto;
+}
+
+.simple-playlist li {
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: #3C3F50;
+}
+
+.simple-playlist li span {
+    color: #E9908A;
+}
+
+.close {
+    position: fixed;
+    right: 30px;
+    top: 0px;
+    font-size: 70px;
+    visibility: hidden;
+}
+
+.controls {
+    position: fixed;
+    bottom: 15px;
+    left: calc((100% - 200px) / 2);
+}
+
+.controls div {
+    margin: 0 25px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 38px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .3s;
+    z-index: 2;
+    color: #FFF;
+    background-color: rgba(60, 63, 80, .23);
+    cursor: not-allowed;
+}
+
+.controls div.active {
+    cursor: pointer;
+    background-color: rgba(60, 63, 80, .5);
+}
+
+.controls div.active:hover {
+    background-color: #3C3F50;
+}
+
+.controls .count {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    left: 0;
+}
+
+.nicescroll-rails {
+    display: none;
+}
